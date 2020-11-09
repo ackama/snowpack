@@ -22,8 +22,8 @@ Gem::Specification.new do |spec|
   spec.add_runtime_dependency "dry-inflector", "~> 0.1"
   spec.add_runtime_dependency "dry-monitor", "~> 0.3.1"
   spec.add_runtime_dependency "dry-system", "~> 0.12", ">= 0.12.0"
-  spec.add_runtime_dependency "dry-types", "~> 1.0"
-  spec.add_runtime_dependency "down", "~> 0.14"
+  spec.add_runtime_dependency "dry-types", "~> 0.14"
+  spec.add_runtime_dependency "down", "~> 4.0"
   spec.add_runtime_dependency "hanami-cli"    # requires unstable branch from github in application Gemfile
   spec.add_runtime_dependency "hanami-utils"  # requires unstable branch from github in application Gemfile
   spec.add_runtime_dependency "rack", "~> 2.0"
